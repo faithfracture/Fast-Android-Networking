@@ -24,7 +24,7 @@ import org.json.JSONObject;
 /**
  * Created by amitshekhar on 23/05/16.
  */
-public interface JSONObjectRequestListener {
+public interface JSONObjectRequestListener extends RequestListener<JSONObject> {
 
     void onResponse(JSONObject response);
 

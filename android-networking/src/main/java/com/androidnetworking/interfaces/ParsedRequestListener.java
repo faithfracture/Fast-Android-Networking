@@ -24,7 +24,7 @@ import com.androidnetworking.error.ANError;
 /**
  * Created by amitshekhar on 31/07/16.
  */
-public interface ParsedRequestListener<T> {
+public interface ParsedRequestListener<T> extends RequestListener<T> {
 
     void onResponse(T response);
 

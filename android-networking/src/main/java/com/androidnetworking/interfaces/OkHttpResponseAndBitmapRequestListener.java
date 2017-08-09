@@ -28,7 +28,7 @@ import okhttp3.Response;
 /**
  * Created by amitshekhar on 23/05/16.
  */
-public interface OkHttpResponseAndBitmapRequestListener {
+public interface OkHttpResponseAndBitmapRequestListener extends OkHttpResponseAndRequestListener<Bitmap> {
 
     void onResponse(Response okHttpResponse, Bitmap response);
 

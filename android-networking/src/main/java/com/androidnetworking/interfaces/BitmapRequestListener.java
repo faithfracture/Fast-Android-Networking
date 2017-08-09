@@ -24,7 +24,7 @@ import com.androidnetworking.error.ANError;
 /**
  * Created by amitshekhar on 23/05/16.
  */
-public interface BitmapRequestListener {
+public interface BitmapRequestListener extends RequestListener <Bitmap> {
 
     void onResponse(Bitmap response);
 

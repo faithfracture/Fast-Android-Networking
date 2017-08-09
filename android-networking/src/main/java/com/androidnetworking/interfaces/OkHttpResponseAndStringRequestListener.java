@@ -26,7 +26,7 @@ import okhttp3.Response;
 /**
  * Created by amitshekhar on 23/05/16.
  */
-public interface OkHttpResponseAndStringRequestListener {
+public interface OkHttpResponseAndStringRequestListener extends OkHttpResponseAndRequestListener<String> {
 
     void onResponse(Response okHttpResponse, String response);
 

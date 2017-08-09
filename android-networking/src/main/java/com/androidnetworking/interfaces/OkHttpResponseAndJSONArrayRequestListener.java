@@ -28,7 +28,7 @@ import okhttp3.Response;
 /**
  * Created by amitshekhar on 23/05/16.
  */
-public interface OkHttpResponseAndJSONArrayRequestListener {
+public interface OkHttpResponseAndJSONArrayRequestListener extends OkHttpResponseAndRequestListener<JSONArray> {
 
     void onResponse(Response okHttpResponse, JSONArray response);
 

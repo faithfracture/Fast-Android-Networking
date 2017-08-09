@@ -24,7 +24,7 @@ import org.json.JSONArray;
 /**
  * Created by amitshekhar on 23/05/16.
  */
-public interface JSONArrayRequestListener {
+public interface JSONArrayRequestListener extends RequestListener<JSONArray> {
 
     void onResponse(JSONArray response);
 
